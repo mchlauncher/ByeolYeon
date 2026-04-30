@@ -1,14 +1,14 @@
 appId: 'ByeolYeon'
-productName: '별안'
-artifactName: 'ByeolAn-setup-${version}.${ext}'
+productName: '별아온1.5'
+artifactName: '${productName}-setup-${version}.${ext}'
 
-copyright: 'Copyright © 2025 gotiger (original author: © 2018-2024 Daniel Scalzi)'
+copyright: 'Copyright © 2025-2026 gotiger (original author: © 2018-2026 Daniel Scalzi)'
 
 asar: true
 compression: 'maximum'
 
 files:
-  - '!{dist,.gitignore,.vscode,docs,dev-app-update.yml,.nvmrc,.eslintrc.json}'
+  - '!{dist,.gitignore,.vscode,docs,dev-app-update.yml,.nvmrc,eslint.config.mjs}'
 
 extraResources:
   - 'libraries'
